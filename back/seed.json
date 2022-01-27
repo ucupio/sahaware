@@ -1,0 +1,329 @@
+{
+  "users": [
+    {
+      "name": "Rifky",
+      "password": "rahasia",
+      "email": "oke@gmail.com",
+      "phone": "0816"
+    },
+    {
+      "name": "Ivan",
+      "password": "rahasia2",
+      "email": "oke2@gmail.com",
+      "phone": "0815"
+    }
+  ],
+  "articles": [
+    {
+        "title": "Hujan Deras Disertai Angin Kencang Melanda Kota Tasikmalaya, Papan Reklame dan Puluhan Pohon Tumbang",
+        "short_description": "Hujan Deras Disertai Angin Kencang Melanda Kota Tasikmalaya, Papan Reklame dan Puluhan Pohon Tumbang",
+        "description": "<p><strong>KABAR PRIANGAN -&nbsp;</strong>Hujan deras disertai angin kencang kembali melanda wilayah Kota Tasikmalaya, Selasa 25&nbsp;Januari 2022 sekira pukul 14.00-15.00 WIB.&nbsp;Meski dalam kurun waktu satu jam, sedikitnya terjadi pohon tumbang di 29 titik lokasi.</p><p>Selain itu&nbsp;atap rumah yang rusak sedikitnya di tujuh titik, serta kubah masjid di satu titik tersapu angin kencang.</p><p>Berdasarkan data Badan Penanggulangan Bencana Daerah (BPBD) Kota Tasikmalaya, pohon tumbang akibat angin kencang terjadi di Cikurubuk Kecamatan Mangkubumi, Dadaha Kecamatan Tawang, serta depan Kantor Pemerintah Kelurahan Nagarawangi Kecamatan Cipedes.</p><p><strong>Baca Juga: Warga Ketakutan, Kota Tasikmalaya Diguyur Hujan Es Hari Ini</strong></p><p>Lokasi lainnya di Jalan AH Nasution Mangkubumi, Jalan Cibaregbeg, Kelurahan Tugujaya Kecamatan Cihideung, area parkir TMC, Jalan Utuy Sobandi Kelurahan Nagarasari Kecamatan Cipedes, dan Jalan lr H Juanda Kecamatan Indihiang.</p><p>Ada pula di depan Toko Golden&nbsp;Shop, Jalan Perintis Kemerdekaan, dan Kelurahan Cilembang Kecamatan Cihideung.</p><p>Selain menumbangkan puluhan pohon di sejumlah titik, hujan disertai angin juga menyebabkan ambruknya sejumlah papan reklame di sejumlah ruas jalan seperti di Jalan HZ Mustofa, Jalan Perintis Kemerdekaan dan yang lainnya.</p><p><strong>Baca Juga: Babak Tiga Besar Pilrek Unsil Tasikmalaya 2022, Tiga Calon Rektor Punya Kans Sama untuk Mencetak Sejarah</strong></p><p>Termasuk sejumlah atap rumah waga yang rusak tersapu angin seperti di Kampung Benda RT 004 RW 13 Kelurahan Nagarasari Kecamatan Cipedes Kota Tasikmalaya, serta atap madrasah di wilayah Cieunteung Gede RT 03 RW 06 Kelurahan Argasari Kecamatan Cihideung.</p>",
+        "image": "http://149.129.247.151:9000/news/news_fdac0120-7e59-11ec-8b20-d93f4d6a81a2.jpg",
+        "created_at": "2022-01-26T03:42:33.000Z",
+        "userId": 1,
+        "categoryId": 1
+    },
+    {
+        "title": "This is my new article",
+        "short_description": "This is my new article",
+        "description": "<p>This is my new article</p>",
+        "image": "http://149.129.247.151:9000/news/news_132521b0-7cb8-11ec-9386-0bf483828499.png",
+        "created_at": "2022-01-24T01:51:01.000Z",
+        "userId": 1,
+        "categoryId": 1
+    },
+    {
+        "title": "Coinbase and Mastercard partner to revolutionize NFT purchase experience",
+        "short_description": "Our mission at Coinbase is to increase economic freedom in the world.",
+        "description": "<p>Our mission at Coinbase is to increase economic freedom in the world. By enabling more people to join the creator economy and profit from their work, NFTs (Non-Fungible Tokens) have an important role to play in this mission. However, the experience of purchasing an NFT remains complex for many users.</p><p></p><p>Coinbase wants to simplify the user experience to allow more people to join the NFTs community. Just as we helped millions of people access Bitcoin for the first time in an easy and trusted way, we want to do the same for NFTs.</p><p></p><p>That’s why we’re working with Mastercard to classify NFTs as “digital goods”, allowing a broader group of consumers to purchase NFTs. And, coming soon we’ll “unlock” a new way to pay using Mastercard cards.</p><p></p><p>Coinbase recently <strong><u>announced</u></strong> Coinbase NFT, a peer-to-peer marketplace that will make minting, purchasing, showcasing, and discovering NFTs easier. Thanks to our work with Mastercard, we’ll be able to provide a better customer experience on Coinbase NFT, and plan on working to find ways to bring this opportunity to the broader ecosystem through Mastercard’s scale and global network.</p>",
+        "image": "http://149.129.247.151:9000/news/news_e94a86e0-7c31-11ec-81c3-c33c48bb8d21.jpg",
+        "created_at": "2022-01-23T09:50:36.000Z",
+        "userId": 1,
+        "categoryId": 1
+    },
+    {
+        "title": "BUIBU BOGOR",
+        "short_description": "BUIBU BOGOR",
+        "description": "<p><em>BUIBU BOGOR</em></p>",
+        "image": "http://149.129.247.151:9000/news/news_f03babb0-7bcc-11ec-b285-2fead1449c42.jpg",
+        "created_at": "2022-01-22T21:47:49.000Z",
+        "userId": 1,
+        "categoryId": 1
+    },
+    {
+        "title": "BUIBU BOGOR",
+        "short_description": "BUIBU BOGOR",
+        "description": "<p><strong>BUIBU BOGOR</strong></p>",
+        "image": "http://149.129.247.151:9000/",
+        "created_at": "2022-01-22T21:47:05.000Z",
+        "userId": 1,
+        "categoryId": 1
+    },
+    {
+        "title": "BUIBU BOGOR INTEROGASI!",
+        "short_description": "BUIBU BOGOR INTEROGASI!\r\n\r\n",
+        "description": "<p><strong>BUIBU&nbsp;</strong><em>BOGOR&nbsp;</em><u>INTEROGASI</u><strong><u>&nbsp;</u><em><u>KORBAN PEMBUNUHAN</u></em></strong></p>",
+        "image": "http://149.129.247.151:9000/",
+        "created_at": "2022-01-22T21:36:37.000Z",
+        "userId": 1,
+        "categoryId": 1
+    },
+    {
+        "title": "BUIBU BOGOR INTEROGASI!",
+        "short_description": "BUIBU BOGOR INTEROGASI!",
+        "description": "<p><strong>BUIBU </strong><em>BOGOR </em><u>INTEROGASI</u><strong><u> </u><em><u>KORBAN PEMBUNUHAN</u></em></strong></p>",
+        "image": "http://149.129.247.151:9000/",
+        "created_at": "2022-01-22T21:34:11.000Z",
+        "userId": 1,
+        "categoryId": 1
+    },
+    {
+        "title": "Buibu Bogor",
+        "short_description": "Buibu Bogor",
+        "description": "<p>Buibu Bogor</p>",
+        "image": "http://149.129.247.151:9000/news/news_78c62fe0-7bc9-11ec-b285-2fead1449c42.jpg",
+        "created_at": "2022-01-22T21:23:00.000Z",
+        "userId": 1,
+        "categoryId": 1
+    },
+    {
+        "title": "Mulai dari Perencana Hingga Designer, Ini Daftar Pekerjaan di Metaverse",
+        "short_description": "Metaverse sendiri berasal dari kata meta yang artinya melampaui .",
+        "description": "<p>Jakarta - Akhir-akhir ini publik diramaikan dengan istilah metaverse https://www.detik.com/tag/metaverse setelah CEO Facebook, Mark Zuckerberg mengubah nama induk perusahaan Facebook menjadi Meta Platforms Inc. (Meta).<br>Metaverse sendiri berasal dari kata meta yang artinya melampaui dan verse yang berarti alam semesta. Dapat disimpulkan metaverse adalah ruang berisi materi dari semua hal-hal yang tidak mungkin di dunia.</p><p>Sementara menurut Coinmarketcap, metaverse adalah ruang virtual yang diciptakan sebagai versi digital dari berbagai aspek yang ada di dunia nyata, baik itu interaksi antara manusia maupun fungsi ekonomi.</p><p>Di metaverse sendiri nantinya manusia akan beraktivitas dan bersosialisasi secara virtual yang memanfaatkan teknologi virtual reality (VR) dan augmented reality. Kira-kira dengan gambaran kehidupan tersebut, pekerjaan apa yang cocok di Metaverse?</p><p>Daftar Pekerjaan di Metaverse<br>1. Fashion Designer Virtual Reality<br>Tugas seorang designer di sini adalah merancang busana dan aksesoris unik untuk tiap avatar. Nantinya di dunia metaverse orang akan digantikan oleh avatar.</p><p>Rekomendasi jurusan dan kampus:</p><p>- Virtual Reality dengan kampusnya Lund University, Swansea University, dan Universite Paris Saclay</p><p>- Fashion design dengan kampusnya Princeton University, University of Toronto (UofT), dan The University of Sydney.</p><p>2. Metaverse Planner<br>Seorang metaverse planner memiliki tugas untuk menyusun strategi agar semua hal dapat berjalan sesuai fungsinya di dunia virtual.</p><p>Selain itu ia juga bertanggungjawab agar tidak ada hal-hal yang melenceng di dunia digital.</p><p>Rekomendasi jurusan dan kampus:</p><p>- Software engineering dengan kampus Carnegie Mellon University, Tsinghua University, dan The University of Edinburgh.</p><p>- Digital Business/ Digital Marketing/ Digital Entrepreneurship/ E-business dengan kampusnya Bocconi University, Singapore Management University, dan Korea University.</p><p>Baca juga:<br>5 Profesi yang Paling Dibutuhkan di Metaverse, Bisa Tebak Apa?<br>3. Metaverse Storyteller<br>Apa detikers tertarik menjadi penulis cerita ulung? Kalian tetap bisa menjajaki profesi ini di dunia metaverse. Di metaverse seorang storyteller bertugas untuk menulis skenario menjelajahi metaverse, skenario pelatihan, peluang pemasaran dalam bentuk narasi untuk perusahaan, dan lainnya.</p><p>Rekomendasi jurusan dan kampus:</p><p>- Literature/ English Langugae dengan kampusnya NUS, New York University, Macquarie University.</p><p>4. Construction Engineers<br>Di dunia metaverse juga membutuhkan seorang untuk merancang dan membangun bangunan. Construction engineers bertugas untuk menyusun pola dunia metaverse dari desain, bentuk m proses pembuatan, hingga penyelesaiannya.</p><p>Rekomendasi jurusan dan kampus:</p><p>- Graphic design/ visual communication design dengan kampusnya Royal college of arts (RCA), Rhode Island School of Design (RISD), The Hong Kong Polytechnic University (PolyU)</p><p>- 3D Design/ Animation dengan kampusnya Emily Carr University of Arts + Design, School of the Art Institute of Chicago (SAIC), dan Yoyogi Animation Academy (YOANI)</p><p>5. Metaverse Cyber Security<br>Pada profesi ini kalian akan mengatur strategi untuk memblokir serangan secara realtime. Selain itu juga akan menetapkan undang-undang dan protokol yang aman bagi dunia maya. Undang-undang tersebut nantinya dapat dipertimbangkan, diubah, dan diciptakan kembali.</p><p>Metaverse merupakan dunia virtual yang rawan akan serangan cyber dan penipuan, seorang cyber security sangat diperlukan.</p><p>Rekomendasi jurusan dan kampus:</p><p>- Cyber security dengan kampusnya EPFL, National University of Singapore (NUS), Shanghai Jiao Tong</p><p>- Information Technology law dengan kampusnya Monash University, Utrecht University, dan University of Technology Sydney.</p><p>Nah itu tadi adalah daftar pekerjaan yang dibutuhkan di dunia metaverse. Apa detikers tertarik menggelutinya?</p><p>&nbsp;</p>",
+        "image": "http://149.129.247.151:9000/news/news_6e4add90-7aa7-11ec-9ddc-b34c659df99e.jpeg",
+        "created_at": "2022-01-21T10:46:48.000Z",
+        "userId": 2,
+        "categoryId": 1
+    },
+    {
+        "title": "asdasdasda",
+        "short_description": "asdasasdasdasdasasdasdsa",
+        "description": "<p>Write your storyasdasd</p>",
+        "image": "http://149.129.247.151:9000/",
+        "created_at": "2022-01-21T10:38:12.000Z",
+        "userId": 2,
+        "categoryId": 1
+    },
+    {
+        "title": "asdasd",
+        "short_description": "asdasdasdas",
+        "description": "<p>Write your storyasdasdas</p>",
+        "image": "http://149.129.247.151:9000/",
+        "created_at": "2022-01-21T10:23:24.000Z",
+        "userId": 2,
+        "categoryId": 1
+    },
+    {
+        "title": "Lorem Ipsom",
+        "short_description": "Lorem Ipsum Dolor sit Amet",
+        "description": "<p>Lorem Ipsum Dolor sit <strong>Amet</strong></p>",
+        "image": "http://149.129.247.151:9000/news/news_4fd21fb0-5be2-11ec-8d93-41958638dc50.txt",
+        "created_at": "2021-12-13T07:00:11.000Z",
+        "userId": 1,
+        "categoryId": 1
+    },
+    {
+        "title": "Lorem Ipsum new",
+        "short_description": "Lorem Ipsum",
+        "description": "<h3 style=\\\"margin-left:0px;\\\"><strong>The standard Lorem Ipsum passage, used since the 1500s</strong></h3><p style=\\\"margin-left:0px;text-align:justify;\\\">\\\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\\\"</p><h3 style=\\\"margin-left:0px;\\\"><strong>Section 1.10.32 of \\\"de Finibus Bonorum et Malorum\\\", written by Cicero in 45 BC</strong></h3><p style=\\\"margin-left:0px;text-align:justify;\\\">\\\"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?\\\"</p><h3 style=\\\"margin-left:0px;\\\"><strong>1914 translation by H. Rackham</strong></h3><p style=\\\"margin-left:0px;text-align:justify;\\\">\\\"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?\\\"</p><h3 style=\\\"margin-left:0px;\\\"><strong>Section 1.10.33 of \\\"de Finibus Bonorum et Malorum\\\", written by Cicero in 45 BC</strong></h3><p style=\\\"margin-left:0px;text-align:justify;\\\">\\\"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.\\\"</p><h3 style=\\\"margin-left:0px;\\\"><strong>1914 translation by H. Rackham</strong></h3><p style=\\\"margin-left:0px;text-align:justify;\\\">\\\"On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains.\\\"</p>",
+        "image": "http://149.129.247.151:9000/news/news_c0a632e0-5bd2-11ec-a47b-8fb9e56c1143.jpg",
+        "created_at": "2021-12-13T05:08:49.000Z",
+        "userId": 1,
+        "categoryId": 1
+    },
+    {
+        "title": "The standard Lorem Ipsum passage, used since the 1500s",
+        "short_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, ",
+        "description": "<h3 style=\"margin-left:0px;\"><strong>The standard Lorem Ipsum passage, used since the 1500s</strong></h3><p style=\"margin-left:0px;text-align:justify;\">\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\"</p><h3 style=\"margin-left:0px;\"><strong>Section 1.10.32 of \"de Finibus Bonorum et Malorum\", written by Cicero in 45 BC</strong></h3><p style=\"margin-left:0px;text-align:justify;\">\"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?\"</p><h3 style=\"margin-left:0px;\"><strong>1914 translation by H. Rackham</strong></h3><p style=\"margin-left:0px;text-align:justify;\">\"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?\"</p><h3 style=\"margin-left:0px;\"><strong>Section 1.10.33 of \"de Finibus Bonorum et Malorum\", written by Cicero in 45 BC</strong></h3><p style=\"margin-left:0px;text-align:justify;\">\"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.\"</p><h3 style=\"margin-left:0px;\"><strong>1914 translation by H. Rackham</strong></h3><p style=\"margin-left:0px;text-align:justify;\">\"On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains.\"</p>",
+        "image": "http://149.129.247.151:9000/news/news_b65e06a0-5b41-11ec-9b81-4b50eae06b8b.png",
+        "created_at": "2021-12-12T11:50:36.000Z",
+        "userId": 2,
+        "categoryId": 1
+    },
+    {
+        "title": "CR7 Back To Manchester United",
+        "short_description": "Cristiano Ronaldo Kembali ke MU setelah 12 tahun ",
+        "description": "<p>Cristiano Ronaldo Kembali ke MU setelah 12 tahun </p>",
+        "image": "http://149.129.247.151:9000/news/news_cfcd18d0-4e83-11ec-a851-cd97ec88ed87.png",
+        "created_at": "2021-11-26T06:41:01.000Z",
+        "userId": 1,
+        "categoryId": 1
+    },
+    {
+        "title": "Artikel Baru",
+        "short_description": "The National Monument is a 132 m obelisk in the centre of Merdeka Square",
+        "description": "<p>The National Monument is a 132 m obelisk in the centre of Merdeka Square, Central Jakarta, symbolizing the fight for Indonesia. It is the national monument of the Republic of Indonesia, built to commemorate the struggle for Indonesian independence. Construction began in 1961 under the direction of President Sukarno.</p>",
+        "image": "http://149.129.247.151:9000/",
+        "created_at": "2021-11-23T06:34:51.000Z",
+        "userId": 2,
+        "categoryId": 1
+    },
+    {
+        "title": "Artikel Baru",
+        "short_description": "The National Monument is a 132 m obelisk in the centre of Merdeka Square",
+        "description": "<p>The National Monument is a 132 m obelisk in the centre of Merdeka Square, Central Jakarta, symbolizing the fight for Indonesia. It is the national monument of the Republic of Indonesia, built to commemorate the struggle for Indonesian independence. Construction began in 1961 under the direction of President Sukarno.</p>",
+        "image": "http://149.129.247.151:9000/",
+        "created_at": "2021-11-23T06:34:47.000Z",
+        "userId": 2,
+        "categoryId": 1
+    },
+    {
+        "title": "Artikel Baru",
+        "short_description": "The National Monument is a 132 m obelisk in the centre of Merdeka Square",
+        "description": "<p>The National Monument is a 132 m obelisk in the centre of Merdeka Square, Central Jakarta, symbolizing the fight for Indonesia. It is the national monument of the Republic of Indonesia, built to commemorate the struggle for Indonesian independence. Construction began in 1961 under the direction of President Sukarno.</p>",
+        "image": "http://149.129.247.151:9000/",
+        "created_at": "2021-11-23T06:34:24.000Z",
+        "userId": 2,
+        "categoryId": 1
+    },
+    {
+        "title": "Artikel Baru",
+        "short_description": "The National Monument is a 132 m obelisk in the centre of Merdeka Square",
+        "description": "<p>The National Monument is a 132 m obelisk in the centre of Merdeka Square, Central Jakarta, symbolizing the fight for Indonesia. It is the national monument of the Republic of Indonesia, built to commemorate the struggle for Indonesian independence. Construction began in 1961 under the direction of President Sukarno.</p>",
+        "image": "http://149.129.247.151:9000/",
+        "created_at": "2021-11-23T06:34:22.000Z",
+        "userId": 2,
+        "categoryId": 1
+    },
+    {
+        "title": "Artikel Baru",
+        "short_description": "The National Monument is a 132 m obelisk in the centre of Merdeka Square",
+        "description": "<p>The National Monument is a 132 m obelisk in the centre of Merdeka Square, Central Jakarta, symbolizing the fight for Indonesia. It is the national monument of the Republic of Indonesia, built to commemorate the struggle for Indonesian independence. Construction began in 1961 under the direction of President Sukarno.</p>",
+        "image": "http://149.129.247.151:9000/",
+        "created_at": "2021-11-23T06:34:20.000Z",
+        "userId": 2,
+        "categoryId": 1
+    },
+    {
+        "title": "Artikel Baru",
+        "short_description": "The National Monument is a 132 m obelisk in the centre of Merdeka Square",
+        "description": "<p>The National Monument is a 132 m obelisk in the centre of Merdeka Square, Central Jakarta, symbolizing the fight for Indonesia. It is the national monument of the Republic of Indonesia, built to commemorate the struggle for Indonesian independence. Construction began in 1961 under the direction of President Sukarno.</p>",
+        "image": "http://149.129.247.151:9000/",
+        "created_at": "2021-11-23T06:34:16.000Z",
+        "userId": 2,
+        "categoryId": 1
+    },
+    {
+        "title": "Artikel Baru",
+        "short_description": "The National Monument is a 132 m obelisk in the centre of Merdeka Square",
+        "description": "<p>The National Monument is a 132 m obelisk in the centre of Merdeka Square, Central Jakarta, symbolizing the fight for Indonesia. It is the national monument of the Republic of Indonesia, built to commemorate the struggle for Indonesian independence. Construction began in 1961 under the direction of President Sukarno.</p>",
+        "image": "http://149.129.247.151:9000/",
+        "created_at": "2021-11-23T06:34:16.000Z",
+        "userId": 2,
+        "categoryId": 1
+    },
+    {
+        "title": "Artikel Baru",
+        "short_description": "The National Monument is a 132 m obelisk in the centre of Merdeka Square",
+        "description": "<p>The National Monument is a 132 m obelisk in the centre of Merdeka Square, Central Jakarta, symbolizing the fight for Indonesia. It is the national monument of the Republic of Indonesia, built to commemorate the struggle for Indonesian independence. Construction began in 1961 under the direction of President Sukarno.</p>",
+        "image": "http://149.129.247.151:9000/",
+        "created_at": "2021-11-23T06:34:15.000Z",
+        "userId": 2,
+        "categoryId": 1
+    },
+    {
+        "title": "Artikel Baru",
+        "short_description": "The National Monument is a 132 m obelisk in the centre of Merdeka Square",
+        "description": "<p>The National Monument is a 132 m obelisk in the centre of Merdeka Square, Central Jakarta, symbolizing the fight for Indonesia. It is the national monument of the Republic of Indonesia, built to commemorate the struggle for Indonesian independence. Construction began in 1961 under the direction of President Sukarno.</p>",
+        "image": "http://149.129.247.151:9000/",
+        "created_at": "2021-11-23T06:34:15.000Z",
+        "userId": 2,
+        "categoryId": 1
+    },
+    {
+        "title": "Artikel Baru",
+        "short_description": "The National Monument is a 132 m obelisk in the centre of Merdeka Square",
+        "description": "<p>The National Monument is a 132 m obelisk in the centre of Merdeka Square, Central Jakarta, symbolizing the fight for Indonesia. It is the national monument of the Republic of Indonesia, built to commemorate the struggle for Indonesian independence. Construction began in 1961 under the direction of President Sukarno.</p>",
+        "image": "http://149.129.247.151:9000/",
+        "created_at": "2021-11-23T06:34:15.000Z",
+        "userId": 2,
+        "categoryId": 1
+    },
+    {
+        "title": "Artikel Baru",
+        "short_description": "The National Monument is a 132 m obelisk in the centre of Merdeka Square",
+        "description": "<p>The National Monument is a 132 m obelisk in the centre of Merdeka Square, Central Jakarta, symbolizing the fight for Indonesia. It is the national monument of the Republic of Indonesia, built to commemorate the struggle for Indonesian independence. Construction began in 1961 under the direction of President Sukarno.</p>",
+        "image": "http://149.129.247.151:9000/",
+        "created_at": "2021-11-23T06:34:15.000Z",
+        "userId": 2,
+        "categoryId": 1
+    },
+    {
+        "title": "Artikel Baru",
+        "short_description": "The National Monument is a 132 m obelisk in the centre of Merdeka Square",
+        "description": "<p>The National Monument is a 132 m obelisk in the centre of Merdeka Square, Central Jakarta, symbolizing the fight for Indonesia. It is the national monument of the Republic of Indonesia, built to commemorate the struggle for Indonesian independence. Construction began in 1961 under the direction of President Sukarno.</p>",
+        "image": "http://149.129.247.151:9000/",
+        "created_at": "2021-11-23T06:34:13.000Z",
+        "userId": 2,
+        "categoryId": 1
+    },
+    {
+        "title": "Artikel Baru",
+        "short_description": "The National Monument is a 132 m obelisk in the centre of Merdeka Square",
+        "description": "<p>The National Monument is a 132 m obelisk in the centre of Merdeka Square, Central Jakarta, symbolizing the fight for Indonesia. It is the national monument of the Republic of Indonesia, built to commemorate the struggle for Indonesian independence. Construction began in 1961 under the direction of President Sukarno.</p>",
+        "image": "http://149.129.247.151:9000/",
+        "created_at": "2021-11-23T06:34:09.000Z",
+        "userId": 2,
+        "categoryId": 1
+    },
+    {
+        "title": "Australia siap cabut lockdown",
+        "short_description": "Australia siap cabut lockdown",
+        "description": "<p>\nJakarta, CNN Indonesia -- Restoran, bar, hingga pusat kebugaran di Kota Sydney, Australia, mulai menerima pelanggan yang telah divaksinasi Covid-19 setelah menerapkan penutupan wilayah (lockdown) selama empat bulan terakhir.\nSejumlah gambar di media sosial dan televisi memperlihatkan sederet pub dan bar di Sydney, kota terbesar Australia, mulai membuka pintu mereka bagi para pelanggan mulai pukul 12.00 dini hari pada Senin (11/10).\n\nSaya pikir semua orang di seluruh negara bagian ini (termasuk Sydney) cukup bersemangat setelah 100 hari (lockdown) yang panjang, kata Menteri Utama Negara Bagian New South Wales (NSW), Dominic Perrottet, kepada Seven News via Reuters.\n\n</p>\n",
+        "image": "http://149.129.247.151:9000/news/news_2145d260-2a35-11ec-b4a1-f3254e204e03.jpeg",
+        "created_at": "2021-10-11T01:47:04.000Z",
+        "userId": null,
+        "categoryId": 1
+    },
+    {
+        "title": "Gempa Jepang Terkini: Jumlah Korban hingga Kondisi Terbaru",
+        "short_description": "Gempa Jepang Terkini: Jumlah Korban hingga Kondisi Terbaru",
+        "description": "<p>\nBadan Meteorologi Jepang (JMA) mengungkapkan bahwa gempa dengan kekuatan magnitudo 6,1 itu berpusat di bagian timur Kota Tokyo. Gempa terjadi pada pukul 22.41 waktu setempat. Diketahui bahwa titik pusat gempa berasal dari kedalaman 80 kilometer.\nGempa bumi bisa dibilang sering terjadi di Jepang. Namun, gempa Kamis (7/10) kemarin terdaftar sebagai Strong 5 dalam skala intensitas Jepang yang dapat menyebabkan pemadaman listrik hingga kerusakan bangunan.\nBaca artikel detiknews, Gempa Jepang Terkini: Jumlah Korban hingga Kondisi Terbaru selengkapnya https://news.detik.com/internasional/d-5758241/gempa-jepang-terkini-jumlah-korban-hingga-kondisi-terbaru.\nDownload Apps Detikcom Sekarang https://apps.detik.com/detik/\nBaca artikel detiknews, Gempa Jepang Terkini: Jumlah Korban hingga Kondisi Terbaru selengkapnya https://news.detik.com/internasional/d-5758241/gempa-jepang-terkini-jumlah-korban-hingga-kondisi-terbaru.\nDownload Apps Detikcom Sekarang https://apps.detik.com/detik/\n</p>\n",
+        "image": "http://149.129.247.151:9000/news/news_307d0b50-2a34-11ec-b4a1-f3254e204e03.jpeg",
+        "created_at": "2021-10-11T01:40:20.000Z",
+        "userId": null,
+        "categoryId": 1
+    },
+    {
+        "title": "Pola Makan Sehat Cristiano Ronaldo Bikin Pemain Manchester United dan Portugal Sungkan",
+        "short_description": "Pola Makan Sehat Cristiano Ronaldo Bikin Pemain Manchester United dan Portugal Sungkan",
+        "description": "<p>\nFonte mengatakan Ronaldo seperti manusia umumnya juga tergoda pada makanan biasa namun porsinya tidak berlebihan.\n</p>\n<p>\n\nGaya hidup sehat terutama soal makanan ternyata bukan hanya menginspirasi para pemain Manchester United tapi juga rekan-rekannya di tim nasional Portugal.\n\n</p>\n<p>\n\nSeptember lalu, kiper ketiga Setan Merah, Lee Grant mengatakan kepada talkSPORT bahwa skuad United - sebelum debut kedua Ronaldo di Liga Primer lawan Newcastle United - melihat piring pemain berusia 36 tahun itu dan memutuskan untuk tidak menyantap makanan penutup.\n</p>\n<p>\nGrant mengungkapkan: Tidak ada satu pemain pun yang menyentuh apple crumble dan custard, tidak ada satu pemain pun yang mengambil brownies karena semua orang duduk dan salah satu pemain berkata kepada saya, Apa yang ada di piring Cristiano?\n</p>\n<p>\nJadi kami sedikit merinding melihat apa yang ia ambil dan makan, dan jelas piringnya adalah piring terbersih dan paling sehat yang bisa Anda bayangkan.\n\nDan Jose Fonte, rekan setim Ronaldo di Portugal, juga mengungkapkan kepada talkSPORT pengaruh hidup sehat pemenang lima Ballon dOr tersebut terhadap orang-orang di sekitarnya.\n\nSeratus persen, kata bek Lille itu dalam acara Breakfast. Kami selalu memperhatikan apa yang ia makan dan apa yang ia lakukan.\n\nAnda tahu ia adalah yang terbaik dan Anda ingin meniru apa yang ia lakukan karena ia pasti melakukan sesuatu yang benar.\n\nJelas sebagai aturan ia makan enak dan bersih, Anda tahu quinoa yang enak dan semua makanan sehat ini... Banyak telur, ubi jalar, brokoli, ia suka itu, imbuh Fonte.\n\nFonte juga mengatakan bahwa Ronaldo juga pernah sesekali tidak makan makanan sehat seperti steak dan telur yang digoreng, hanya saya dalam porsi secukupnya.\n</p>\n",
+        "image": "http://149.129.247.151:9000/news/news_83d9abb0-2745-11ec-849b-9bed7c095313.jpg",
+        "created_at": "2021-10-07T08:06:47.000Z",
+        "userId": null,
+        "categoryId": 1
+    },
+    {
+        "title": "CR7 Back To Manchester United",
+        "short_description": "Cristiano Ronaldo Kembali ke MU setelah 12 tahun ",
+        "description": "<p>Cristiano Ronaldo Kembali ke MU setelah 12 tahun </p>",
+        "image": "http://149.129.247.151:9000/news/news_69679d10-231b-11ec-8155-937346d89e78.jpg",
+        "created_at": "2021-10-02T00:55:20.000Z",
+        "userId": 1,
+        "categoryId": 1
+    }
+  ],
+  "categories": [
+    {
+        "title": "Sport"
+    },
+    {
+        "title": "Social"
+    },
+    {
+        "title": "Politics"
+    },
+    {
+        "title": "Others"
+    },
+    {
+        "title": "Motogp"
+    },
+    {
+        "title": "International"
+    },
+    {
+        "title": "religic"
+    }
+  ]
+}
