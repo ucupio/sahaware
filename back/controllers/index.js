@@ -104,19 +104,19 @@ class Controller {
 			})
 	}
 
-	static getArticleDetail(req, res, next) {
+	static getArticle(req, res, next) {
 		const options = {
 			include: [
 				{
 					model: Category,
 				},
 				{
-					model: Skill,
+					model: User,
 				},
 			],
 			attributes: { exclude: ["createdAt", "updatedAt"] },
 		}
-		Article.findByPk(req.params.id, options)
+		Article.findByPk(req.params.articleid, options)
 			.then((result) => {
 				res.status(200).json(result)
 			})
@@ -125,139 +125,32 @@ class Controller {
 			})
 	}
 
-	static async getCategory(req, res, next) {
-		let response = {}
-		let additonalUrl = ""
-		const { page, name, email, article } = req.query
-		const options = {
-			include: [
-				{
-					model: Article,
-				},
-				{
-					model: Assesment,
-					include: [Skill],
-				},
-			],
-			attributes: { exclude: ["createdAt", "updatedAt"] },
-			order: [["name", "ASC"]],
-		}
-		let limit
-		let offset
+	static async getCategories(req, res, next) {
 
-		//Search
-		if (name !== "" && typeof name !== "undefined") {
-			options.where = {
-				name: {
-					[Op.iLike]: `%${name}%`,
-				},
-			}
-			additonalUrl += `&name=${name}`
-		}
-
-		if (email !== "" && typeof email !== "undefined") {
-			options.where = {
-				email: {
-					[Op.iLike]: `%${email}%`,
-				},
-			}
-			additonalUrl += `&email=${email}`
-		}
-
-		//Filter
-		if (article !== "" && typeof article !== "undefined") {
-			if (typeof options.where === "undefined") {
-				options.where = {
-					ArticleId: +article,
-				}
-			} else {
-				options.where = {
-					...options.where,
-					ArticleId: +article,
-				}
-			}
-			additonalUrl += `&article=${+article}`
-		}
-
-		// pagination
-		if (page !== "" && typeof page !== "undefined") {
-			if (page.size !== "" && typeof page.size !== "undefined") {
-				limit = page.size
-				options.limit = limit
-			}
-
-			if (page.number !== "" && typeof page.number !== "undefined") {
-				offset = page.number * limit - limit
-				options.offset = offset
-			}
-		} else {
-			limit = 12
-			offset = 0
-			options.limit = limit
-			options.offset = offset
-		}
-
-		let maxCount =
-			typeof options.where !== "undefined"
-				? await Category.count()
-				: await Category.count({ where: options.where })
-		let maxPage = Math.ceil(maxCount / +limit)
-
-		Category.findAll(options)
+		Category.findAll()
 			.then((result) => {
-				if (page !== "" && typeof page !== "undefined") {
-					response = {
-						data: result,
-						total: maxCount,
-						currentPage: +page.number,
-						pageSize: +page.size,
-						lastPage: maxPage,
-						nextPageUrl:
-							page.number == maxPage
-								? null
-								: `${req.protocol}://${req.hostname}:${process.env.PORT}${
-										req.path
-								  }?page[number]=${
-										+page.number + 1
-								  }&page[size]=${+limit}${additonalUrl}`,
-						prevPageUrl:
-							page.number == 1
-								? null
-								: `${req.protocol}://${req.hostname}:${process.env.PORT}${
-										req.path
-								  }?page[number]=${
-										+page.number - 1
-								  }&page[size]=${+limit}${additonalUrl}`,
-					}
-					res.status(200).json(response)
-				} else {
-					res.status(200).json(result)
-				}
+				res.status(200).json(result)
 			})
 			.catch((err) => {
 				next(err)
 			})
 	}
 
-	static getCategoryDetail(req, res, next) {
+	static getCategory(req, res, next) {
 		const options = {
 			include: [
 				{
 					model: Article,
 					include: [
 						{
-							model: Skill,
+							model: User,
 						},
 					],
-				},
-				{
-					model: Assesment,
-					include: [Skill],
-				},
+				}
 			],
 			attributes: { exclude: ["createdAt", "updatedAt"] },
 		}
-		Category.findByPk(req.params.id, options)
+		Category.findByPk(req.params.categoryid, options)
 			.then((result) => {
 				res.status(200).json(result)
 			})
@@ -268,10 +161,7 @@ class Controller {
 
 	static createCategory(req, res, next) {
 		const category = {
-			name: req.body.name,
-			email: req.body.email,
-			photo: req.body.photo,
-			ArticleId: req.body.ArticleId,
+			name: req.body.name
 		}
 
 		Category.create(category)
@@ -283,58 +173,16 @@ class Controller {
 			})
 	}
 
-	static async createCategoryDetail(req, res, next) {
-		const assesments = {
-			CategoryId: req.params.categoryId,
-			SkillId: req.params.skillId,
-			score: req.body.score,
-		}
-
-		let checkAssesment = await Assesment.findOne({
-			where: {
-				CategoryId: req.params.categoryId,
-				SkillId: req.params.skillId,
-			},
-		})
-
-		if (checkAssesment) {
-			Assesment.update(assesments, {
-				where: {
-					id: checkAssesment.id,
-				},
-			})
-				.then((result) => {
-					res.status(200).json(result)
-				})
-				.catch((err) => {
-					next(err)
-				})
-		} else {
-			Assesment.create(assesments)
-				.then((result) => {
-					res.status(200).json(result)
-				})
-				.catch((err) => {
-					next(err)
-				})
-		}
-	}
-
 	static async createArticles(req, res, next) {
-		const skill = {
-			name: req.body.name,
-			baseScore: req.body.baseScore,
-			minScore: req.body.minScore,
-			maxScore: req.body.maxScore,
-			ArticleId: req.params.id,
-		}
+    const { title, short_description, description, image, userId, categoryId } = req.body
+    const article = { title, short_description, description, image, userId, categoryId }
 
 		let transaction
 		let result
 		try {
 			// get transaction
 			transaction = await sequelize.transaction()
-			result = await Skill.create(skill)
+			result = await Article.create(article)
 			await transaction.commit()
 			res.status(200).json(result)
 		} catch (err) {
