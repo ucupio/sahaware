@@ -25,7 +25,7 @@ class Controller {
 				if (!user) next({ status: 400, msg: "Email tidak ditemukan" })
 
 				const isCorrect = comparing(password, user.password)
-				if (!isCorrect) next({ status: 400, msg: "Password tidak sesuai" })
+				if (!isCorrect) next({ status: 401, msg: "Password tidak sesuai" })
         
 				const payload = {
 					id: user.id,
@@ -161,7 +161,7 @@ class Controller {
 
 	static createCategory(req, res, next) {
 		const category = {
-			name: req.body.name
+			title: req.body.title
 		}
 
 		Category.create(category)
@@ -173,7 +173,7 @@ class Controller {
 			})
 	}
 
-	static async createArticles(req, res, next) {
+	static async createArticle(req, res, next) {
     const { title, short_description, description, image, userId, categoryId } = req.body
     const article = { title, short_description, description, image, userId, categoryId }
 
