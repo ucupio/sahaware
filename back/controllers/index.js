@@ -106,14 +106,7 @@ class Controller {
 
 	static getArticle(req, res, next) {
 		const options = {
-			include: [
-				{
-					model: Category,
-				},
-				{
-					model: User,
-				},
-			],
+			include: [Category, User],
 			attributes: { exclude: ["createdAt", "updatedAt"] },
 		}
 		Article.findByPk(req.params.articleid, options)

@@ -1,6 +1,6 @@
 <template>
-  <div class="detail-article">
-    Detail
+  <div class="create-article">
+    Create
   </div>
 </template>
 

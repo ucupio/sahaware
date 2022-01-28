@@ -19,7 +19,6 @@ const swaggerOptions = {
 }
 
 const swaggerDocs = swaggerJsDoc(swaggerOptions)
-console.log(swaggerDocs)
 
 /**
    * @swagger
@@ -148,11 +147,10 @@ router.get('/api/category', getCategories)
  * /api/category/{categoryid}:
  *  get:
  *    description: Use to get category by Id
- *    tags: [Article]
  *    tags: [Category]
  *    parameters:
  *      - name: categoryid
- *        description: email user
+ *        description: Category Id
  *        in: path
  *        type: String
  *    responses:
@@ -184,7 +182,7 @@ router.post('/api/category', createCategory)
 
 /**
  * @swagger
- * /api/auth/article:
+ * /api/article:
  *  get:
  *    description: Use to get all articles
  *    tags: [Article]
@@ -198,10 +196,15 @@ router.get('/api/article', getArticles)
 
 /**
  * @swagger
- * /api/auth/article/{articleid}:
+ * /api/article/{articleid}:
  *  get:
  *    description: Use to get article by Id
  *    tags: [Article]
+ *    parameters:
+ *      - name: articleid
+ *        description: Article Id
+ *        in: path
+ *        type: String
  *    responses:
  *      '200':
  *        description: A succesfully get article
