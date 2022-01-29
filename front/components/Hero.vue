@@ -1,6 +1,6 @@
 <template>
   <div class="hero">
-    <img src="../assets/imgs/hero.jpg" alt="Hero">
+    <img src="../assets/imgs/hero.png" alt="Hero">
   </div>
 </template>
 
@@ -16,9 +16,13 @@ export default {
   height: 100%;
 }
 img {
-  padding: 80px;
+  @media (min-width: 584px) {
+    padding: 80px;
+    height: 100%;
+  }
+  padding: 0px;
   width: 100%;
-  height: 100%;
+  height: 584px;
   object-fit: cover;
 }
 

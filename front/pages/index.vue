@@ -1,20 +1,33 @@
+/* eslint-disable no-console */
 <template>
   <div class="home">
     <Header />
     <Hero/>
-    <BoxArticle/>
+    <BoxArticle :articles="articles" />
     <Footer/>
   </div>
 </template>
 
 <script>
-import Hero from '../components/Hero'
-import Header from '../components/Header'
-import BoxArticle from '../components/BoxArticle'
-import Footer from '../components/Footer'
+import axios from 'axios'
 
 export default {
-  name: 'IndexPage',
-  components: { Hero, Header, BoxArticle, Footer }
+  data() {
+    return {
+      articles: [],
+    }
+  },
+  async fetch (){
+    await this.getArticles()
+  },
+  methods: {
+    async getArticles(){
+      const data = axios.get('http://localhost:3001/api/article?size=3&number=8')
+      const result = await data
+      result.data.data.forEach((el) =>{
+        this.articles.push(el)
+      })
+    }
+  }
 }
 </script>

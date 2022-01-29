@@ -1,16 +1,16 @@
 <template>
   <div class="card-article">
-    <img src="" alt="Ok">
+    <img :src="article.image" alt="Ok">
     <div class="card-content">
-      <h3>Judul Artikel</h3>
-      <p>Isi artikel</p>
+      <h3>{{article.title}}</h3>
+      <p>{{article.short_description}}</p>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-
+  props: ['article']
 }
 </script>
 
@@ -20,12 +20,9 @@ export default {
   flex-direction: column;
   align-items: flex-start;
   padding: 0px;
-
-  position: static;
-  width: 302px;
+  width: 250px;
   height: 333px;
-  left: 0px;
-  top: 0px;
+  margin: 12px;
 }
 
 .card-content {
@@ -35,7 +32,7 @@ export default {
   padding: 0px;
 
   position: static;
-  width: 302px;
+  width: 100%;
   height: 112px;
   left: 0px;
   top: 221px;
@@ -43,7 +40,7 @@ export default {
 
 img {
   position: static;
-  width: 302px;
+  width: 100%;
   height: 205px;
   left: 0px;
   top: 0px;

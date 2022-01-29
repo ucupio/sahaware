@@ -1,14 +1,14 @@
 <template>
   <div class="header">
-    <img src="../assets/imgs/logo.svg" alt="">
-    <div class="divider"></div>
-    <span> Assesments</span>
-    <span> Home </span>
-    <span> Article </span>
-    <span> Create</span>
-    <span>Login</span>
-
-    
+    <img class="logo" src="../assets/imgs/logo.svg" alt="">
+    <div class="nav">
+      <span> Home </span>
+      <span> Article </span>
+      <span> Create</span>
+      <span class="login">Login</span>
+    </div>
+    <img class="menu" src="../assets/imgs/menu.svg" alt="">
+    <div class="menu-float"></div>
   </div>
 </template>
 
@@ -23,29 +23,56 @@ export default {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 80px;
+  height: 56px;
   width: 100%;
   left: 0px;
   top: 0px;
   border-radius: 0px;
-  padding: 20px 80px;
+  padding: 20px;
   background: #FFFFFF;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+  @media (min-width: 584px){
+    height: 80px;
+    padding: 20px 80px;
+  }
 }
 
-.divider {
-  height: 0px;
-  width: 21px;  
-  border: 1px solid #848688;
-  transform: rotate(90deg);
+.menu {
+  display: block;
+  @media (min-width: 584px) {
+    display: none;
+  }
+}
+
+.logo {
+  @media (min-width: 584px) {
+    padding: 12px;
+  }
+  padding: 0px
+}
+
+.nav {
+  flex: 1;
+  justify-content: flex-start;
+  align-items: center;
+  display: none;
+  @media (min-width: 584px) {
+    display: flex;
+  }
+}
+
+.login {
+  margin-left: auto;
+}
+
+.menu-float {
+  display: none;
 }
 
 span {
-  position: static;
-  width: 38px;
-  height: 16px;
-  left: 24px;
-  top: 12px;
+  width: auto;
+  height: 100%;
+  padding: 24px 12px;
 
   font-family: Roboto;
   font-style: normal;

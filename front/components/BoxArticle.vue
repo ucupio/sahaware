@@ -1,12 +1,11 @@
 <template>
   <div class="box-article">
-    <h2>Article</h2>
-    <div class="article-container">
-      <CardArticle/>
-      <CardArticle/>
-      <CardArticle/>
+    <div class="header-article">
+      <p>Article</p>
     </div>
-    
+    <div class="article-container">
+      <CardArticle v-for="(article, index) in articles" :key="index" :article="article"/>
+    </div>
   </div>
 </template>
 
@@ -14,7 +13,8 @@
 import CardArticle from './CardArticle'
 export default {
   name: 'BoxArticle',
-  components: { CardArticle }
+  components: { CardArticle },
+  props: ['articles']
 }
 </script>
 
@@ -22,38 +22,37 @@ export default {
 .box-article {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 0px;
+  padding: 80px 243px;
   width: 100%;
-  height: 437px;
-  margin: auto 80px;
 }
 .article-container {
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: space-between;
+  flex-direction: column;
   padding: 0px;
+  width: 100%;
+  flex-wrap: wrap;
+  margin: 12px;
 
-  position: static;
-  width: 954px;
-  height: 333px;
-  left: 0px;
-  top: 104px;
+
+  @media (min-width: 584px) {
+    flex-direction: row;
+  }
 }
 
-h2 {
-  position: static;
-  width: 144px;
-  height: 56px;
-  left: 405px;
-  top: 0px;
+.header-article {
+  width: 100%;
+  margin-bottom: 48px;
+}
 
+p {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 48px;
-  line-height: 56px;
+  line-height: 48px;
+  text-align: center;
+  color: #000000;
 }
+
+
 </style>

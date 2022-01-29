@@ -42,11 +42,11 @@ class Controller {
 
 	static async getArticles(req, res, next) {
 		let response = {}
-		const { page } = req.query
+		const page = req.query
 		const options = {
-			include: [Skill, Category],
+			include: [User, Category],
 			attributes: { exclude: ["createdAt", "updatedAt"] },
-			order: [["name", "ASC"]],
+			order: [["title", "ASC"]],
 		}
 
 		// pagination
@@ -71,6 +71,7 @@ class Controller {
 
 		let maxCount = await Article.count()
 		let maxPage = Math.ceil(maxCount / +limit)
+    console.log(options, page)
 
 		Article.findAll(options)
 			.then((result) => {
