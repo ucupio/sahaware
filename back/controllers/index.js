@@ -46,7 +46,7 @@ class Controller {
 		const options = {
 			include: [User, Category],
 			attributes: { exclude: ["createdAt", "updatedAt"] },
-			order: [["title", "ASC"]],
+			order: [["id", "DESC"]],
 		}
 
 		// pagination
@@ -71,7 +71,6 @@ class Controller {
 
 		let maxCount = await Article.count()
 		let maxPage = Math.ceil(maxCount / +limit)
-    console.log(options, page)
 
 		Article.findAll(options)
 			.then((result) => {

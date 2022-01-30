@@ -1,10 +1,8 @@
 /* eslint-disable no-console */
 <template>
   <div class="home">
-    <Header />
     <Hero/>
-    <BoxArticle :articles="articles" />
-    <Footer/>
+    <BoxArticle :articles="articles" :header="true"/>
   </div>
 </template>
 
@@ -22,7 +20,7 @@ export default {
   },
   methods: {
     async getArticles(){
-      const data = axios.get('http://localhost:3001/api/article?size=3&number=8')
+      const data = axios.get('http://localhost:3001/api/article?size=3')
       const result = await data
       result.data.data.forEach((el) =>{
         this.articles.push(el)

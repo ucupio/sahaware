@@ -1,10 +1,10 @@
 <template>
   <div class="header">
-    <img class="logo" src="../assets/imgs/logo.svg" alt="">
+    <NuxtLink to="/"><img class="logo" src="../assets/imgs/logo.svg" alt=""></NuxtLink>
     <div class="nav">
-      <span> Home </span>
-      <span> Article </span>
-      <span> Create</span>
+      <span><NuxtLink to="/">Home</NuxtLink></span>
+      <span> <NuxtLink to="/article/list">Article</NuxtLink> </span>
+      <span> <NuxtLink to="/article/create">Create</NuxtLink></span>
       <span class="login">Login</span>
     </div>
     <img class="menu" src="../assets/imgs/menu.svg" alt="">
@@ -81,5 +81,9 @@ span {
   line-height: 16px;
 
   color: #ED3237;
+}
+
+.nuxt-link-active {
+  color: red;
 }
 </style>

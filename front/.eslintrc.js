@@ -13,6 +13,7 @@ module.exports = {
   // add your custom rules here
   rules: {
     'vue/multi-word-component-names': 'off',
-    'vue/require-prop-types': 'off'
+    'vue/require-prop-types': 'off',
+    'vue/no-v-html': 'off'
   },
 }

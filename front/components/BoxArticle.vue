@@ -1,6 +1,6 @@
 <template>
   <div class="box-article">
-    <div class="header-article">
+    <div v-if="header" class="header-article">
       <p>Article</p>
     </div>
     <div class="article-container">
@@ -14,7 +14,7 @@ import CardArticle from './CardArticle'
 export default {
   name: 'BoxArticle',
   components: { CardArticle },
-  props: ['articles']
+  props: ['articles', 'header']
 }
 </script>
 
@@ -24,6 +24,9 @@ export default {
   flex-direction: column;
   padding: 80px 243px;
   width: 100%;
+  @media (max-width: 584px){
+    padding: 0px;
+  }
 }
 .article-container {
   display: flex;
@@ -42,6 +45,9 @@ export default {
 .header-article {
   width: 100%;
   margin-bottom: 48px;
+  @media (max-width: 584px){
+    margin: 32px 0px 36px;
+  }
 }
 
 p {
