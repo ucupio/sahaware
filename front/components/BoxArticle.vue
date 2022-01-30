@@ -22,7 +22,7 @@ export default {
 .box-article {
   display: flex;
   flex-direction: column;
-  padding: 80px 243px;
+  padding: 80px 200px;
   width: 100%;
   @media (max-width: 584px){
     padding: 0px;

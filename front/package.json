@@ -16,6 +16,8 @@
     "@nuxtjs/axios": "^5.13.6",
     "@tiptap/core": "^2.0.0-beta.171",
     "@tiptap/starter-kit": "^2.0.0-beta.180",
+    "@tiptap/vue-2": "^2.0.0-beta.77",
+    "@tiptap/vue-3": "^2.0.0-beta.90",
     "core-js": "^3.19.3",
     "nuxt": "^2.15.8",
     "vue": "^2.6.14",

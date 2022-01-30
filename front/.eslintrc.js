@@ -14,6 +14,9 @@ module.exports = {
   rules: {
     'vue/multi-word-component-names': 'off',
     'vue/require-prop-types': 'off',
-    'vue/no-v-html': 'off'
+    'vue/attributes-order': 'off',
+    'vue/no-v-html': 'off',
+    'no-console': 'off',
+    'no-new': 'off'
   },
 }

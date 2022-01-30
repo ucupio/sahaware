@@ -2,9 +2,9 @@
   <div class="header">
     <NuxtLink to="/"><img class="logo" src="../assets/imgs/logo.svg" alt=""></NuxtLink>
     <div class="nav">
-      <span><NuxtLink to="/">Home</NuxtLink></span>
-      <span> <NuxtLink to="/article/list">Article</NuxtLink> </span>
-      <span> <NuxtLink to="/article/create">Create</NuxtLink></span>
+      <NuxtLink to="/" ><span>Home</span></NuxtLink>
+      <NuxtLink to="/article/list" ><span> Article </span></NuxtLink>
+      <NuxtLink to="/article/create" ><span> Create</span></NuxtLink>
       <span class="login">Login</span>
     </div>
     <img class="menu" src="../assets/imgs/menu.svg" alt="">
@@ -73,17 +73,21 @@ span {
   width: auto;
   height: 100%;
   padding: 24px 12px;
-
+  text-decoration: none;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 16px;
-
-  color: #ED3237;
 }
 
-.nuxt-link-active {
+.link.nav{
+  color: black;
+  text-decoration: none;
+}
+
+.nuxt-link-exact-active {
   color: red;
+  text-decoration: none;
 }
 </style>
