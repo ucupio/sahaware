@@ -26,7 +26,7 @@ export default {
   fetchDelay: 1000,
   methods: {
     async getArticle() {
-      const data = axios.get(`http://localhost:3001/api/article/${this.$route.params.articleid}`)
+      const data = axios.get(`https://sahaware-server.herokuapp.com/api/article/${this.$route.params.articleid}`)
       const result = await data
       this.article = result.data
     }

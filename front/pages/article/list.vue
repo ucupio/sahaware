@@ -17,7 +17,7 @@ export default {
   },
   methods: {
     async getArticles(){
-      const data = axios.get('http://localhost:3001/api/article?size=9&number=1')
+      const data = axios.get('https://sahaware-server.herokuapp.com/api/article?size=9&number=1')
       const result = await data
       result.data.data.forEach((el) =>{
         this.articles.push(el)

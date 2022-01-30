@@ -47,7 +47,7 @@ export default {
       this.Article.image = event.target.files[0]
     },
     addArticle () {
-      axios.post('http://localhost:3001/api/article', {
+      axios.post('https://sahaware-server.herokuapp.com/api/article', {
         header: {
           'accept': 'application/json',
           'content-type': 'application/x-www-form-urlencoded'
